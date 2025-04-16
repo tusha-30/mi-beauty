@@ -10,8 +10,8 @@ export default function Home() {
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-white font-bold text-xl">Mi Beauty</div>
           <div className="space-x-4">
-            <a href="#about" className="text-white hover:text-gray-300">About Us</a>
-            <a href="#contact" className="text-white hover:text-gray-300">Contact Us</a>
+            <a href="about" className="text-white hover:text-gray-300">About Us</a>
+            <a href="contact-us" className="text-white hover:text-gray-300">Contact Us</a>
           </div>
         </div>
       </nav>
