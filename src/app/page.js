@@ -2,19 +2,21 @@
 
 // home page
 "use client"
+
+import CategoryCarousel from "./about/components/Carousel";
+import FeatureHighlights from "./about/components/FeatureHighlight";
+import Footer from "./about/components/Footer";
+import Header from "./about/components/Header";
+import ProductSection from "./about/components/ProductSection";
+import ShopByCategory from "./about/components/Shopbycategory";
+import Me from "./about/components/me";
+
 export default function Home() {
+
   return (
     <div className="bg-gray-100">
       {/* Navbar */}
-      <nav className="bg-[#E69DB8] p-4">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="text-white font-bold text-xl">Mi Beauty</div>
-          <div className="space-x-4">
-            <a href="about" className="text-white hover:text-gray-300">About Us</a>
-            <a href="contact-us" className="text-white hover:text-gray-300">Contact Us</a>
-          </div>
-        </div>
-      </nav>
+<Header/>
 
       {/* Video Section */}
       <div className="">
@@ -27,7 +29,15 @@ export default function Home() {
           alt="Beauty video"
         />
       </div>
+      <ShopByCategory/>
+      <ProductSection/>
 
+<img src="/images/banner.avif" className="w-full"/>
+<CategoryCarousel/>
+
+<Me/>
+<FeatureHighlights/>
+<Footer/>
       {/* Responsive Design */}
       <style jsx>{`
         @media (max-width: 768px) {
