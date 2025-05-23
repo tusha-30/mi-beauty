@@ -14,23 +14,26 @@ import Me from "./about/components/me";
 export default function Home() {
 
   return (
-    <div className="bg-gray-100">
-      {/* Navbar */}
+ <h2 className="flex justify-center h-[100vh] items-center">Paused</h2>
+  );
+}
+
+{/*
+
 <Header/>
 
-      {/* Video Section */}
-      <div className="">
-        <video 
-          src="/vid4.mp4" 
-          autoPlay 
-          loop 
-          muted
-          className="w-full h-auto" 
-          alt="Beauty video"
-        />
-      </div>
-      <ShopByCategory/>
-      <ProductSection/>
+<div className="">
+  <video 
+    src="/vid4.mp4" 
+    autoPlay 
+    loop 
+    muted
+    className="w-full h-auto" 
+    alt="Beauty video"
+  />
+</div>
+<ShopByCategory/>
+<ProductSection/>
 
 <img src="/images/banner.avif" className="w-full"/>
 <CategoryCarousel/>
@@ -38,18 +41,15 @@ export default function Home() {
 <Me/>
 <FeatureHighlights/>
 <Footer/>
-      {/* Responsive Design */}
-      <style jsx>{`
-        @media (max-width: 768px) {
-          .container {
-            padding: 0 1rem;
-          }
-          nav {
-            padding: 1rem;
-          }
-        }
-      `}</style>
-    </div>
-  );
-}
 
+<style jsx>{`
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 1rem;
+    }
+    nav {
+      padding: 1rem;
+    }
+  }
+`}</style>
+</div> */}
