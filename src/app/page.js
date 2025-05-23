@@ -22,7 +22,7 @@ export default function Home() {
 
 <Header/>
 
-<div className="">
+<div className="w">
   <video 
     src="/vid4.mp4" 
     autoPlay 
